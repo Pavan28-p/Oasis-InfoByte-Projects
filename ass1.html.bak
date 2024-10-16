@@ -1,0 +1,49 @@
+<html>
+<body>
+<form method="post"action="">
+First Name<input name="fname"><br>
+Last Name<input name="lname"><br>
+Email Id<input name="email"><br>
+Password <input type=password name="pass"><br>
+Confirm Password<input type=password name=cpass><br>
+Qualification<input name=quli><br>
+Gender
+Female<input type=radio value=female name=r1>
+Male<input type=radio value=male name=r1>
+<br>
+City<select name=list1 >
+<option selected>Dhule</option>
+<option >Mumbai</option>
+<option >Nashik</option>
+<option >Shirpur</option>
+</select>
+<br>
+
+Country<select name=list2 >
+<option selected>Africa</option>
+<option >China</option>
+<option >India</option>
+<option >Japan</option>
+</select>
+<br>
+
+Language Known:
+English<input type=checkbox value=English name=c1>
+Marathi<input type=checkbox value=Marathi name=c2>
+Hindi<input type=checkbox value=Hindi name=c3>
+<br>
+
+Security Question
+<select name=list3>
+<option selected>What you are pet name</option>
+<option>What you are first School name</option>
+<option>What your mother name</option>
+</select>
+<br>
+Answer
+<input type=text name=ans />
+<br>
+<input type="Submit" value=submit name="submit"/>
+</form>
+</body>
+</html>
